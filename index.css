@@ -1,0 +1,229 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-style: normal;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.form-box {
+    background-color: #0b0b0b;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.form-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    margin-right: 20px;
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    /* Move icon to the right */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #060505;
+}
+
+.input-box label {
+    margin-right: 200%;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-box input:focus+label,
+.input-box input:valid+label {
+    margin-right: 20px;
+    top: 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.forget {
+    text-align: center;
+    
+}
+
+.forget label {
+    
+    margin-right: 10px;
+}
+
+.register {
+    text-align: center;
+    font-style: normal;
+}
+
+.register p {
+    margin-top: 20px;
+}
+
+.register a {
+    font-style: oblique;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+button {
+    color: black;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    background: rgb(219, 223, 223);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+/* * {
+    color: white;
+    margin: o;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(13, 227, 77);
+    background-image: url(index.jpg);
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: #f50404;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    padding: 20px 0;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #090909;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    color: #0b0e2c;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #0a0909;
+    transition: 5s;
+
+}
+button{
+    color: black;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    background: rgb(219, 223, 223);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;    
+  }
+  input:focus~label,
+input:valid~label {
+    top: -5px;
+    font-size: 0.8em;
+    background: transparent;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.inputbox i{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    top: 20px;
+}
+.register{
+    text-decoration: none;
+    color: #000;
+    font: weight 600;
+    align-items: center;
+}
+.register p a:hover{
+    text-decoration: underline;
+    align-items: center;
+
+}  */
